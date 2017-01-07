@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Full and Comprehensive Style Test"
+title: "What is the current bitcoin price?"
 description: "Test post for style"
 date: 2016-08-15
 tags: [test, style]

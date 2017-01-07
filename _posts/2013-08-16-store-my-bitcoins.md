@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Syntax Highlighting Post"
+title: "How should I store my bitcoins?"
 description: "Demo post displaying the various ways of highlighting code in Markdown."
 date: 2013-08-16
 tags: [sample post, code, highlighting]

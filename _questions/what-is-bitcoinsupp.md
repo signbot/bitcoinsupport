@@ -21,3 +21,14 @@ scientific questions:
 - What is the chance that someone else generates my private key?
 - What is the current bitcoin price?
 - What is the current hashrate?
+
+Some names:
+
+- bitcoinsupport
+- coinsupp.com
+- bitcoin.support
+- getcoin.support
+- decentral.support
+- decent.support
+- getsupport.coin
+- coin.support

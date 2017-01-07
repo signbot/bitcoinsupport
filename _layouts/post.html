@@ -5,7 +5,6 @@ layout: default
   <h1 class="header-small">
     <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
   </h1>
-  <a href="{{site.github_repository_url}}/edit/gh-pages/{{page.path}}">Edit this page</a>
 </header>
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
@@ -24,13 +23,22 @@ layout: default
 
   {{ content }}
 
-
+  <!-- Edit -->
+  <hr>
+  <div class="post-edit">
+      <h4>Edit</h4>
+      <a href="{{site.github_repository_url}}/edit/gh-pages/{{page.path}}">Edit this page</a>
+      last edited on {{ page.date | date_to_long_string }}
+  </div>
   <!-- Share -->
   {% if page.share != false %}
   <div class="post-share">
-    <hr>
+      <h4>Share</h4>
+
     {% include share.html %}
   </div>
+
+  <br style="clear:both;"/>
   {% endif %}
 
 </div>

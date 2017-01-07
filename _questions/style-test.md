@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "What is the current bitcoin price?"
 description: "Different places to find out about the bitcoin price"
 date: 2016-08-15

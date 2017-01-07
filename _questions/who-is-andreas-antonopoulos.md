@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Who is Andreas Antonopoulos?"
 description: "Andreas Antonopoulos is a technologist and serial entrepreneur who has become one of the most well-known and well-respected figures in bitcoin. "
 date: 2012-05-22

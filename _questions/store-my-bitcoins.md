@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "How should I store my bitcoins?"
 description: "A guide that helps you to store your bitcoins savely"
 date: 2013-08-16

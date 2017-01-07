@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "What is Bitcoin supp?"
 description: "Bitcoin support is a modern wiki that helps you understand every corner of the bitcoin world."
 date: 2012-05-22
@@ -22,3 +22,13 @@ scientific questions:
 - What is the chance that someone else generates my private key?
 - What is the current bitcoin price?
 - What is the current hashrate?
+
+
+- bitcoinsupport
+- coinsupp.com
+- bitcoin.support
+- getcoin.support
+- decentral.support
+- decent.support
+- getsupport.coin
+- coin.support

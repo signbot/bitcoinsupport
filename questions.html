@@ -1,0 +1,9 @@
+---
+layout: page
+title: Cookies
+---
+{% for question in site.questions %}
+	<div class="question">
+		<h2><a href="{{ question.url }}">{{ question.title }}</a></h2>
+	</div>
+{% endfor %}

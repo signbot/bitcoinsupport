@@ -31,11 +31,16 @@ baseurl:            "/bitcoinsupport"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # timezone:           Europ/Seoul
-permalink:          /questions/:title/
+permalink:          /posts/:title/
 
 # Pagination
 paginate:           5
 paginate_path:      /page:num/
+
+collections:
+  questions:
+    output: true
+    permalink: /questions/:title/
 
 # Markdown
 markdown:           kramdown
@@ -74,6 +79,12 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+  -
+    scope:
+      path: ""
+      type: my_collection
+    values:
+      layout: page
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:

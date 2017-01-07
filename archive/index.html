@@ -4,21 +4,22 @@ title: Archive
 ---
 <div class="archive">
   <div class="archive-list">
-  {% if site.posts.size == 0 %}
+
+  {% if site.questions.size == 0 %}
     <h2>No post found</h2>
   {% else %}
-  {% for post in site.posts %}
+  {% for question in site.questions %}
     <div class="archive-list-post">
-      {% if post.link %}
-      <a href="{{ post.link }}">
+      {% if question.link %}
+      <a href="{{ question.link }}">
       {% else %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}  
+      <a href="{{ question.url | prepend: site.baseurl }}">
+      {% endif %}
         <span class="archive-list-post-title">
-          {{ post.title }}
+          {{ question.title }}
         </span>
         <span class="archive-list-post-date">
-          <time>| {{ post.date | date_to_string }}</time>
+          <time>| {{ question.date | date_to_string }}</time>
         </span>
       </a>
     </div>

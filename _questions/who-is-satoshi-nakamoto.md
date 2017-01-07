@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Who is Satoshi Nakamoto?"
 description: "Satoshi Nakamoto is the person or persons who designed bitcoin and created its original reference implementation"
 date: 2016-08-15

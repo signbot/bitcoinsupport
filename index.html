@@ -4,11 +4,11 @@ layout: default
 {% include header.html %}
 
 <div class="list">
-{% if site.questions.size == 0 %}
+{% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
-<!-- This loops through the paginated questions -->
-{% for post in paginator.questions %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
   <div class="list-post">
     {% if post.link %}
     <a href="{{ post.link }}">

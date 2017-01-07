@@ -8,6 +8,9 @@ layout: default
 </header>
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+
+  {{ content }}
+
   <div class="post-tag">
     <ul>
       {% for tag in page.tags %}
@@ -20,8 +23,6 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-
-  {{ content }}
 
   <!-- Edit -->
   <hr>

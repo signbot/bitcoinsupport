@@ -78,16 +78,17 @@ body {
   }
 }
 
-.header-small {
+h1.header-small {
 	text-align: left;
 	margin-bottom: .75rem;
 	font-size: .75rem;
-	font-weight: 600;
+    font-weight: 400;
 	text-transform: uppercase;
+    color: #999;
 
 	a {
 		color: $base-color;
-
+        font-weight: 600;
 		&:hover,
 		&:focus {
 			text-decoration: none;

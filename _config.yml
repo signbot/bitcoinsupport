@@ -3,19 +3,18 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "coinsupp.com"
 
 
 
 author:
-  name:             your-name
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  name:             Kai Bakker
+  facebook:         kaibakker
+  twitter:          kaibakker
+  github:           kaibakker
+  linkedin:         kaibakker
+  medium:           kaibakker
+  # email:            your-id@your-email.com
 
 # Google-analytics
 google-analytics:
@@ -30,10 +29,9 @@ url:                "https://kaibakker.github.io"
 
 baseurl:            "/bitcoinsupport"
 
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+# timezone:           Europ/Seoul
+permalink:          /questions/:title/
 
 # Pagination
 paginate:           5
@@ -42,7 +40,7 @@ paginate_path:      /page:num/
 # Markdown
 markdown:           kramdown
 kramdown:
-  imput:            GFM
+  input:            GFM
 
 # Navigation
 nav:

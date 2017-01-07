@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "The answer of life?"
-description: "Test post for style"
-date: 2016-08-15
+title: "What is the meaning of life?"
+description: "42"
 tags: [egg, life]
-comments: true
 share: true
 ---
 

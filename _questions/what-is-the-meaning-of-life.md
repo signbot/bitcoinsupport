@@ -6,4 +6,4 @@ tags: [egg, life]
 share: true
 ---
 
-42
+# 42

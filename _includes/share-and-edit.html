@@ -1,0 +1,25 @@
+<!-- Edit -->
+
+
+<section class="post">
+
+
+    {% if page.edit != false %}
+    <div class="post-edit">
+
+      <a href="{{site.github_repository_url}}/edit/gh-pages/{{page.path}}">Edit this page</a>
+
+    </div>
+    {% endif %}
+    <!-- Share -->
+    {% if page.share != false %}
+    <div class="post-share">
+
+
+      {% include share.html %}
+    </div>
+
+    <br style="clear:both;"/>
+    {% endif %}
+
+</section>

@@ -10,52 +10,13 @@ layout: default
     {{ content }}
   </div>
 
-  <div class="post-tag">
-    <ul>
-      {% for tag in page.tags %}
-      <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}" class="tag">
-          <span class="term">{{ tag }}</span>
-        </a>
-      </li>
-      {% unless forloop.last %}{% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
+  {% include page-tags.html %}
 
-  <!-- Related posts -->
-  {% for post in site.related_posts %}
-  {% if post.link %}
-  <a href="{{ post.link }}">
-  {% else %}
-  <a href="{{ post.url | prepend: site.baseurl }}">
-  {% endif %}
-    <div class="list-post-title">
-      {{ post.title }}
-    </div>
-    {% if post.description %}
-    <div class="list-post-desc">
-      {{ post.description }}
-    </div>
-    {% endif %}
-  </a>
-  {% endfor %}
 
-  <!-- Edit -->
-  <hr>
-  <div class="post-edit">
-      <h4>Edit</h4>
-      <a href="{{site.github_repository_url}}/edit/gh-pages/{{page.path}}">Edit this page</a>
 
-  </div>
-  <!-- Share -->
-  {% if page.share != false %}
-  <div class="post-share">
-      <h4>Share</h4>
 
-    {% include share.html %}
-  </div>
-
-  <br style="clear:both;"/>
-  {% endif %}
+  {% include share-and-edit.html %}
 </article>
+
+
+{% include related-questions.html %}

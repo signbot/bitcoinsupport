@@ -51,12 +51,12 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
-  - name:           "Archive"
+  - name:           "Questions"
     url:            "/archive"
   - name:           "Contribute"
     url:            "/contribute"
-  - name:           "Github"
-    url:            "https://github.com/kaibakker/bitcoinsupport"
+  - name:           "Search"
+    url:            "/contribute"
 
 github_repository_url: "https://github.com/kaibakker/bitcoinsupport"
 

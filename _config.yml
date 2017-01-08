@@ -49,13 +49,13 @@ kramdown:
 
 # Navigation
 nav:
-  - name:           "Questions"
+  - name:           "questions"
     url:            "/questions"
-  - name:           "Contribute"
+  - name:           "contribute"
     url:            "/contribute"
-  - name:           "About"
+  - name:           "about"
     url:            "/about"
-  - name:           "Search"
+  - name:           "search"
     url:            "/search"
 
 github_repository_url: "https://github.com/kaibakker/bitcoinsupport"

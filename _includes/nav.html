@@ -1,0 +1,15 @@
+
+<nav class="nav">
+  <div class="container">
+    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl }}">decentral<span>support</span></a></h1>
+    <ul class="navbar">
+        {% for nav in site.nav %}
+        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+        <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+        {% else %}
+        <li><a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+  </div>
+</nav>

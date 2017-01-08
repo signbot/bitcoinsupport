@@ -1,45 +1,14 @@
 ---
 layout: default
 ---
-<header>
-  <h1 class="header-small">
-    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a> <span>{{ site.subtitle }}</span>
-  </h1>
-</header>
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
 
-  {{ content }}
+<article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
 
-  <div class="post-tag">
-    <ul>
-      {% for tag in page.tags %}
-      <li>
-        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}" class="tag">
-          <span class="term">{{ tag }}</span>
-        </a>
-      </li>
-      {% unless forloop.last %}{% endunless %}
-      {% endfor %}
-    </ul>
   </div>
-
-  <!-- Edit -->
-  <hr>
-  <div class="post-edit">
-      <h4>Edit</h4>
-      <a href="{{site.github_repository_url}}/edit/gh-pages/{{page.path}}">Edit this page</a>
-      last edited on {{ page.date | date_to_long_string }}
-  </div>
-  <!-- Share -->
-  {% if page.share != false %}
-  <div class="post-share">
-      <h4>Share</h4>
-
-    {% include share.html %}
-  </div>
-
-  <br style="clear:both;"/>
-  {% endif %}
-
-</div>
+</article>

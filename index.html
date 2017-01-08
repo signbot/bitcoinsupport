@@ -1,41 +1,22 @@
 ---
 layout: default
 ---
-{% include header.html %}
 
-<p>
-Decentral support is a the unofficial, community driven Bitcoin support website. Which tries to answer Bitcoin related questions in a simple way. Check out one of the questions below.
+{% include intro.html %}
 
-Which Android wallet should I use?
-How should I store my Bitcoin?
-Is Bitcoin a company?
-Who is Satoshi Nakamoto?
-</p>
-<div class="list">
-{% if site.questions.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-<!-- This loops through the paginated questions -->
-{% for post in site.questions %}
-  <div class="list-post">
-    {% if post.link %}
-    <a href="{{ post.link }}">
-    {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}
-      <div class="list-post-title">
-        {{ post.title }}
-      </div>
-      {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
-      {% endif %}
-    </a>
+<section class="post-list">
+  <div class="container">
 
+    <h2>Questions..</h2>
 
+    {% for post in site.questions %}
+      <article class="post-item">
+        <p><strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> — <span> {{ post.content | strip_html | truncatewords: 40 }}</span> <a class="post-link readmore" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+      </article>
+    {% endfor %}
   </div>
-{% endfor %}
 
-{% endif %}
-</div>
+  <div class="container">
+    {% include pagination.html %}
+  </div>
+</section>

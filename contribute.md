@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How to contribute coinsupp.com
+title: Contribute to Decentral Support
 ---
 
 

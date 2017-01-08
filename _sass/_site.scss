@@ -38,10 +38,14 @@ body {
   -------------- */
 .header {
   padding-bottom: 2%;
+  border-bottom: #999 solid 1px;
+  margin-bottom: 20px;
 
   &-title {
-    width: 50%;
-    float: left;
+    @media (min-width: 38em) {
+      width: 50%;
+      float: left;
+    }
 
     font-weight: 300;
     a {
@@ -60,9 +64,13 @@ body {
   }
 
   &-nav {
-    width: 50%;
-    float: left;
-    padding-top: 15px;
+    @media (min-width: 38em) {
+      width: 50%;
+      float: left;
+      padding-top: 15px;
+    }
+
+
 
     a {
       color: lighten($base-color, 50);

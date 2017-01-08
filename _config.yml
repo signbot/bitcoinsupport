@@ -25,7 +25,7 @@ disqus:
   id:               "kaibakker"
 
 # URL
-url:                "http://bitcoin.decentral.support"
+url:                "http://www.decentral.support"
 
 baseurl:            ""
 
@@ -52,11 +52,11 @@ nav:
   - name:           "About"
     url:            "/about"
   - name:           "Questions"
-    url:            "/archive"
+    url:            "/questions"
   - name:           "Contribute"
     url:            "/contribute"
   - name:           "Search"
-    url:            "/contribute"
+    url:            "/search"
 
 github_repository_url: "https://github.com/kaibakker/bitcoinsupport"
 

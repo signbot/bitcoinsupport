@@ -1,0 +1,27 @@
+---
+layout: page
+title: Archive
+---
+<div class="archive">
+  <div class="archive-list">
+
+  {% if site.questions.size == 0 %}
+    <h2>No post found</h2>
+  {% else %}
+  {% for question in site.questions %}
+    <div class="archive-list-post">
+      {% if question.link %}
+      <a href="{{ question.link }}">
+      {% else %}
+      <a href="{{ question.url | prepend: site.baseurl }}">
+      {% endif %}
+        <span class="archive-list-post-title">
+          {{ question.title }}
+        </span>
+        
+      </a>
+    </div>
+  {% endfor %}
+  {% endif %}
+  </div>
+</div>

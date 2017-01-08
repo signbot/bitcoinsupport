@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-<header>
-  <h1 class="header-small">
-    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a> <span>{{ site.subtitle }}</span>
-  </h1>
-</header>
+
+{% include header.html %}
+
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
 
@@ -29,7 +27,7 @@ layout: default
   <div class="post-edit">
       <h4>Edit</h4>
       <a href="{{site.github_repository_url}}/edit/gh-pages/{{page.path}}">Edit this page</a>
-      
+
   </div>
   <!-- Share -->
   {% if page.share != false %}

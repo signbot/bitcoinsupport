@@ -28,7 +28,7 @@ body {
   margin-right: auto;
 
   @media (min-width: 38rem){
-    padding: 5rem 1rem;
+    padding: 2rem 1rem;
   }
 }
 
@@ -37,9 +37,12 @@ body {
   Header
   -------------- */
 .header {
-  
+  padding-bottom: 2%;
 
   &-title {
+    width: 50%;
+    float: left;
+
     font-weight: 300;
     a {
       color: $base-color;
@@ -57,6 +60,10 @@ body {
   }
 
   &-nav {
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+
     a {
       color: lighten($base-color, 50);
       font-weight: 300;
@@ -76,6 +83,10 @@ body {
       }
     }
   }
+}
+
+.clearfix {
+    clear: both;
 }
 
 h1.header-small {

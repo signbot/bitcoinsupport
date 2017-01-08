@@ -22,6 +22,24 @@ layout: default
     </ul>
   </div>
 
+  <!-- Related posts -->
+  {% for post in site.related_posts %}
+  {% if post.link %}
+  <a href="{{ post.link }}">
+  {% else %}
+  <a href="{{ post.url | prepend: site.baseurl }}">
+  {% endif %}
+    <div class="list-post-title">
+      {{ post.title }}
+    </div>
+    {% if post.description %}
+    <div class="list-post-desc">
+      {{ post.description }}
+    </div>
+    {% endif %}
+  </a>
+  {% endfor %}
+
   <!-- Edit -->
   <hr>
   <div class="post-edit">

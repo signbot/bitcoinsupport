@@ -7,17 +7,3 @@ tags: [sample post, readability, test, intro]
 comments: true
 share: true
 ---
-
-
-Some names:
-
-- bitcoinsupport
-- coinsupp.com
-- bitcoin.support
-- getcoin.support
-- decentral.support
-- decent.support
-- getsupport.coin
-- coin.support
-- customer support
-- the unofficial bitcoin support

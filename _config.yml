@@ -3,8 +3,8 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "coinsupp.com"
-subtitle:           "answers to all your bitcoin questions"
+name:               "decentral.support"
+subtitle:           "Community driven support for Bitcoin"
 
 
 author:
@@ -25,9 +25,9 @@ disqus:
   id:               "kaibakker"
 
 # URL
-url:                "https://kaibakker.github.io"
+url:                "https://bitcoin.decentral.support"
 
-baseurl:            "/bitcoinsupport"
+baseurl:            ""
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # timezone:           Europ/Seoul

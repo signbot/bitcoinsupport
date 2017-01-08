@@ -25,7 +25,7 @@ disqus:
   id:               "kaibakker"
 
 # URL
-url:                "https://bitcoin.decentral.support"
+url:                "http://bitcoin.decentral.support"
 
 baseurl:            ""
 

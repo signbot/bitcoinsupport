@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: question
 title: "Should I start mining bitcoin?"
 description: "Probably Not, around the world there a big companies with specialized equipment trying to mine bitcoin."
 tags: [bitcoin, units, basic]
-share: true
 ---
 
 Probably Not, around the world there big companies with specialized equipment trying to mine bitcoin. Here are some good reasons to start mining bitcoin.

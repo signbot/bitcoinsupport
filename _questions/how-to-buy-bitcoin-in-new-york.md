@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: question
 title: "How to buy bitcoin in New York?"
 description: "You can buy bitcoin through Coinbase, Gemini or itBit"
 tags: [bitcoin, buy, New York, legal]
-share: true
 ---
 
 You should be able to buy bitcoins though the following services:

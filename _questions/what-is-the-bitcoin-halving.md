@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: question
 title: "What is the bitcoin halving?"
 description: "Bitcoin support is a modern wiki that helps you understand every corner of the bitcoin world."
 tags: [bitcoin, halving, reward]
-comments: true
-share: true
 ---
 
 In the Bitcoin network, user transactions are grouped in blocks and recorded to a digital public ledger called a blockchain. Miners are in charge of this task, and receive a mining reward in the form of bitcoins for each block recorded.

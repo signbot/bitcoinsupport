@@ -40,6 +40,7 @@ paginate_path:      /page:num/
 collections:
   questions:
     output: true
+    layout: question
     permalink: /questions/:title/
 
 # Markdown

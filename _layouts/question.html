@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<article class="page container">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
+  <div class="page-content">
+    {{ content }}
+  </div>
+
+  {% include page-tags.html %}
+
+
+
+
+  {% include share-and-edit.html %}
+</article>
+
+
+<section class="post-list">
+  <div class="container">
+
+    <h2>Related questions..</h2>
+
+    <form class="search-bar" role="search" action="/search" method="get">
+      <input type="text" placeholder="Enter Search" id="search-box" name="query" value='{{ page.tags | join: ' ' }}'/>
+    </form>
+
+    <div id="search-results"></div>
+  </div>
+
+  <div class="container">
+    {% include pagination.html %}
+  </div>
+</section>
+
+
+
+
+
+
+<script>
+  window.store = {
+    {% for post in site.questions %}
+      "{{ post.url | slugify }}": {
+        "title": "{{ post.title | xml_escape }}",
+        "author": "{{ post.author | xml_escape }}",
+        "category": "{{ post.category | xml_escape }}",
+        "description": "{{ post.description | xml_escape }}",
+        "tags": "{{ post.tags | join: ', '  | xml_escape }}",
+        /* "content": {{ post.content | strip_html | strip_newlines | jsonify }}, */
+        "url": "{{ post.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>
+
+
+<script src="/js/elasticlunr.min.js"></script>
+<script src="/js/search.js"></script>

@@ -44,14 +44,11 @@
   var searchTerm = searchBox.value || getQueryVariable('query');
 
 
-  // if(element) {
-    //   element.setAttribute("value", searchTerm);
-  // }
-
-  // element.value()
 
   if (searchTerm) {
-    
+
+    searchBox.setAttribute('value', searchTerm)
+
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = elasticlunr(function () {

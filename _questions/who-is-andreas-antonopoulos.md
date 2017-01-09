@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: question
 title: "Who is Andreas Antonopoulos?"
 description: "Andreas Antonopoulos is a technologist and serial entrepreneur who has become one of the most well-known and well-respected figures in bitcoin. "
-date: 2012-05-22
 tags: [andreas]
-comments: true
-share: true
 ---
 
 Andreas M. Antonopoulos is a technologist and serial entrepreneur who has become one of the most well-known and well-respected figures in bitcoin. He is the author of two books: “Mastering Bitcoin”, published by O’Reilly Media and considered the best technical guide to bitcoin and “The Internet of Money”, a book about why bitcoin matters.

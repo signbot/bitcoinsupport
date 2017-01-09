@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: question
 title: "What is Decentral Support?"
 description: "Bitcoin support is a modern wiki that helps you understand every corner of the bitcoin world."
 tags: [sample post, readability, test, intro]
-comments: true
-share: true
 ---
 
 Decentral Support is a modern wiki that helps you understand every corner of the bitcoin world, we help you with personal questions like;

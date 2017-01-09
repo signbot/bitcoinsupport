@@ -51,21 +51,22 @@
   // element.value()
 
   if (searchTerm) {
-
-
+    
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
-    var idx = lunr(function () {
-      this.field('id');
-      this.field('title', { boost: 10 });
-      this.field('author');
-      this.field('category');
-      this.field('description');
-      this.field('tags', { boost: 10 });
+    var idx = elasticlunr(function () {
+      this.setRef('id');
+      this.addField('title', { boost: 10 });
+      this.addField('author');
+      this.addField('category');
+      this.addField('description');
+      this.addField('tags', { boost: 10 });
     });
 
+
+
     for (var key in window.store) { // Add the data to lunr
-      idx.add({
+      idx.addDoc({
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,

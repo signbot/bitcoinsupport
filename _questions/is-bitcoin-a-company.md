@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Is bitcoin a company?"
+title: "Is Bitcoin a company?"
 description: "No"
 tags: [bitcoin]
 share: true

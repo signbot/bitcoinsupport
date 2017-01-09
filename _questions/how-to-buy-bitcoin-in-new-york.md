@@ -14,4 +14,4 @@ You should be able to buy bitcoins though the following services:
 
 The state of New York has installed the BitLicense regulations requiring bitcoin business a lot of work processing bitcoin payment in this area.
 
-[https://en.wikipedia.org/wiki/BitLicense] BitLicense wikipedia
+[BitLicense wikipedia](https://en.wikipedia.org/wiki/BitLicense)

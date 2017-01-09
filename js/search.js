@@ -39,10 +39,19 @@
     }
   }
 
-  var searchTerm = getQueryVariable('query');
+  searchBox = document.getElementById('search-box')
+
+  var searchTerm = searchBox.value || getQueryVariable('query');
+
+
+  // if(element) {
+    //   element.setAttribute("value", searchTerm);
+  // }
+
+  // element.value()
 
   if (searchTerm) {
-    document.getElementById('search-box').setAttribute("value", searchTerm);
+
 
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
@@ -61,7 +70,8 @@
         'title': window.store[key].title,
         'author': window.store[key].author,
         'category': window.store[key].category,
-        'content': window.store[key].content
+        'content': window.store[key].content,
+        'tags': window.store[key].tags
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search

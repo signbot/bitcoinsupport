@@ -3,11 +3,7 @@
 
     <h2>Related questions..</h2>
 
-    {% for post in site.questions %}
-      <article class="post-item">
-        <p><strong><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong> — <span> {{ post.description }}</span> <a class="post-link readmore" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
-      </article>
-    {% endfor %}
+    
   </div>
 
   <div class="container">

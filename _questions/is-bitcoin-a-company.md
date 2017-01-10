@@ -2,7 +2,7 @@
 layout: question
 title: "Is Bitcoin a company?"
 description: "No"
-tags: [bitcoin]
+tags: [bitcoin company]
 ---
 
 # No

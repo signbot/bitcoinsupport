@@ -7,7 +7,7 @@ tags: [bitcoin, buy, New York, legal]
 
 In the Netherlands it is easy to buy bitcoin
 
-### iDeal
+# iDeal
 There are a bunch of website's that will convert money from your bank account, through an iDeal payment. You can find the cheapest ideal exchange at [BitcoinMetiDeal.nl](http://bitcoinmetideal.nl).
 
 - [BitMyMoney.com](https://www.bitmymoney.com/)
@@ -17,7 +17,7 @@ There are a bunch of website's that will convert money from your bank account, t
 - [BTCDirect.eu](https://btcdirect.eu/nl-nl)
 - [Bitrush.nl](http://www.bitrush.nl/‎)
 
-### Exchanges
+# Exchanges
 
 - Coinbase
 - Kraken

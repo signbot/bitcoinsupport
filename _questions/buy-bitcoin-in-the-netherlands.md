@@ -23,5 +23,3 @@ There are a bunch of website's that will convert money from your bank account, t
 - Kraken
 
 # P2P markets
-
-###### Work in progress, contribute to this page?

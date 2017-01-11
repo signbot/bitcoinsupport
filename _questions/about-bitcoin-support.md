@@ -1,6 +1,6 @@
 ---
 layout: question
-title: "About Decentral Support?"
+title: "About Decentral Support"
 description: "Bitcoin support is a modern wiki that helps you understand every corner of the bitcoin world."
 tags: [sample post, readability, test, intro]
 ---

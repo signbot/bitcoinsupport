@@ -3,4 +3,6 @@ _site
 Gemfile.lock
 _drafts
 .jsbeautifyrc
+
+_gh_pages
 CNAME
